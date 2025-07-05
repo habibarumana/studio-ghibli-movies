@@ -40,8 +40,12 @@ h1, h2, h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 
 }
-.top h5{
-    color: aliceblue;
+.second-bg {
+    background-image: url("../styles/Studio-Ghibli.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
 }
 @media (max-width: 600px){
     .text-box {

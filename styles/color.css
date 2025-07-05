@@ -15,6 +15,9 @@ body {
     color: whitesmoke;
     margin-bottom: 20px;
 }
+h1, h2, h3 {
+    font-family: 'cinzel', serif;
+}
 .top{
     background-image: url('../styles/Studio-Ghibli.jpg') ;
     background-size: cover;
@@ -31,10 +34,62 @@ body {
 .top h1{
     color: aliceblue;
     font-size: 40px;
-    background-color: rgba(0, 0, 0, 0,5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
 }
 .top h5{
     color: aliceblue;
+}
+@media (max-width: 600px){
+    .text-box {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+.text-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.movie-section {
+    display: flex;
+    flex-direction: column; /*stack items vertically */
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+}
+.movie-card {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.movie-card h4 {
+    margin: 15px o 10px;
+    font-size: 24px;
+    color: #333;
+}
+.movie-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
 }
